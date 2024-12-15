@@ -1,0 +1,52 @@
+                           /*****************Dalete Margin and Padding*********************/
+*{
+    margin: 0;
+    padding: 0;
+}
+                           /****************************Body*******************/
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+                        
+    background-color: rgb(233, 226, 226);
+    height: 100vh;
+}
+                        
+                            /***********************Main*****************/
+main{
+    display: flex;
+                        
+    background-color: white;
+    width: 800px;
+    height: 400px;
+}
+                        
+    main, .container-div4{
+    display: flex;
+    }
+    
+.container-div4{
+    padding-left: 115px;
+}
+                        
+input{
+    border: solid hsl(0, 93%, 68%);
+    height: 25px;
+    width: 200px;
+    border-radius: 20px;
+}
+                        
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px;
+}
+.h1{
+    color: hsl(0, 36%, 70%);
+}
+
+.container-div2{
+    color: hsl(0, 80%, 86%);
+}
